@@ -1,0 +1,11 @@
+RENDER START COMMAND:
+
+python app.py
+
+OR
+
+uvicorn app:app --host 0.0.0.0 --port $PORT
+
+OR
+
+python -m uvicorn app:app --host 0.0.0.0 --port $PORT
